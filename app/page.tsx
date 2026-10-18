@@ -79,7 +79,9 @@ export default function HomePage() {
           </p>
           <p className="about-links">
             <a href={SITE.xhs} target="_blank" rel="noreferrer">小红书 · 日常与预告</a>
+            <a href={SITE.douyin} target="_blank" rel="noreferrer">抖音 · 视频作品</a>
             <a href={SITE.github} target="_blank" rel="noreferrer">GitHub · 开源与项目</a>
+            <span title="微信搜索该公众号名称关注">微信公众号 · {SITE.wechat}</span>
           </p>
         </div>
       </section>
